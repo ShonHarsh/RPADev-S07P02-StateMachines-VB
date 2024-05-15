@@ -1,0 +1,103 @@
+{
+  "name": "RPADev-S07P02-StateMachines-VB",
+  "projectId": "0aff7f7b-cad7-448b-939c-b8f0e66529e2",
+  "description": "The Vending Machine\r\nCreate a workflow that simulates a vending machine. The functionality should be the following:\r\n\r\nThe user is asked to choose the initial credit ($5, $10, $20) and to choose if he/she wants to proceed or if they changed their mind and want to get the change;\r\nIf they want to continue: They are asked what drink they want: Coffee ($3) or Tea ($2).\r\nNext, the vending machine should check if the user has enough credit for selected drink. If Yes, display a success message and sub",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.23.3-preview]",
+    "UiPath.System.Activities": "[24.3.1]",
+    "UiPath.UIAutomation.Activities": "[24.4.2-preview]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "24.2.1.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "797a4667-67af-4c54-a690-a88d2e84d010",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Methods\\Test_Read_WorkbookToTable.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "c666a76f-cdc8-4ac3-a50e-46a80d456636",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Methods\\Test_Validate_CreditAmount.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "51af3a52-3c32-432e-8bca-6e1262f743f9",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Methods\\Test_Create_VendingItems.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "f8133b56-1e27-4ced-86b9-a785d10cb088",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Dialog\\Test_Dialog_OrderItems.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "8223a409-f4fc-4a07-b41e-552e970c1180",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Dialog\\Test_Dialog_DispenseItems.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "624202e6-aff3-48c6-8ea2-db72ece333a5",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Dialog\\Test_Dialog_CreditAccount.xaml"
+      }
+    ],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "70c8a6d3-ba74-4cb3-861d-3f6f99635105",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
