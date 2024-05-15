@@ -1,5 +1,5 @@
 ![](https://shonharsh.github.io/curriculum-vitae/images/banner-uipath.png)
-# //Project Pending - I am still updating all of the projects for the RPA Developer Foundation.  In doing so I am updating the existing C# Windows Legacy project while also rewriting them in both C# Windows and VB Windows.  I complete at least one project a day.
+
 # S07P02 State Machines
 
 This project is my solution in **VB** to the **State Machines** practice found in section 07 practice 02 of the UiPath - RPA Developer Foundation course.
@@ -38,7 +38,62 @@ If they want to get the change, a message box is displayed with the value of the
 ### Sample Output
 
 ```
-
+05/15/2024 14:16:51 => [Info] RPADev-S07P02-StateMachines-VB execution started
+05/15/2024 14:16:51 => [Info] RPADev-S07P02-StateMachines-VB.Main.Begin;
+05/15/2024 14:16:56 => [Info] RPADev-S07P02-StateMachines-VB.Dialog_CreditAccount.Credit; Account Credit: 100
+05/15/2024 14:17:02 => [Info] RPADev-S07P02-StateMachines-VB.Dialog_DispenseItems.TransactionCompleted; Transaction Complete.
+Item: Vernors Ginger Ale, Cost: 3
+Credit: 97
+05/15/2024 14:17:08 => [Info] RPADev-S07P02-StateMachines-VB.Dialog_DispenseItems.TransactionCompleted; Transaction Complete.
+Item: Java Monster Triple Shot Mocha, Cost: 5
+Credit: 92
+05/15/2024 14:17:18 => [Info] RPADev-S07P02-StateMachines-VB.Dialog_DispenseItems.TransactionCompleted; Transaction Complete.
+Item: Java Monster Triple Shot French Vanilla, Cost: 5
+Credit: 87
+05/15/2024 14:17:23 => [Info] RPADev-S07P02-StateMachines-VB.Dialog_DispenseItems.TransactionCompleted; Transaction Complete.
+Item: Java Monster Mean Bean, Cost: 4
+Credit: 83
+05/15/2024 14:17:29 => [Info] RPADev-S07P02-StateMachines-VB.Dialog_DispenseItems.TransactionCompleted; Transaction Complete.
+Item: Java Monster Loca Moca, Cost: 4
+Credit: 79
+05/15/2024 14:17:34 => [Info] RPADev-S07P02-StateMachines-VB.Dialog_DispenseItems.TransactionCompleted; Transaction Complete.
+Item: Java Monster Irish Crème, Cost: 4
+Credit: 75
+05/15/2024 14:17:38 => [Info] RPADev-S07P02-StateMachines-VB.Dialog_DispenseItems.TransactionCompleted; Transaction Complete.
+Item: Java Monster Café Latte, Cost: 4
+Credit: 71
+05/15/2024 14:17:43 => [Info] RPADev-S07P02-StateMachines-VB.Dialog_DispenseItems.TransactionCompleted; Transaction Complete.
+Item: Dr. Pepper, Cost: 2
+Credit: 69
+05/15/2024 14:17:48 => [Info] RPADev-S07P02-StateMachines-VB.Dialog_DispenseItems.TransactionCompleted; Transaction Complete.
+Item: Coca-Cola, Cost: 2
+Credit: 67
+05/15/2024 14:17:52 => [Info] RPADev-S07P02-StateMachines-VB.Dialog_DispenseItems.TransactionCompleted; Transaction Complete.
+Item: Cheerwine, Cost: 3
+Credit: 64
+05/15/2024 14:17:57 => [Info] RPADev-S07P02-StateMachines-VB.Dialog_DispenseItems.TransactionCompleted; Transaction Complete.
+Item: Barq's Root Beer, Cost: 2
+Credit: 62
+05/15/2024 14:18:02 => [Info] RPADev-S07P02-StateMachines-VB.Dialog_DispenseItems.TransactionCompleted; Transaction Complete.
+Item: 7up, Cost: 2
+Credit: 60
+05/15/2024 14:18:04 => [Info] RPADev-S07P02-StateMachines-VB.FinalState.CashOut;
+Returning funds in pennies: 60
+Ordered Items:
+Vernors Ginger Ale
+Java Monster Triple Shot Mocha
+Java Monster Triple Shot French Vanilla
+Java Monster Mean Bean
+Java Monster Loca Moca
+Java Monster Irish Crème
+Java Monster Café Latte
+Dr. Pepper
+Coca-Cola
+Cheerwine
+Barq's Root Beer
+7up
+05/15/2024 14:18:04 => [Info] RPADev-S07P02-StateMachines-VB.Main.End;
+05/15/2024 14:18:04 => [Info] RPADev-S07P02-StateMachines-VB execution ended in: 00:01:12
 ```
 
 ### Architecture Requirements
