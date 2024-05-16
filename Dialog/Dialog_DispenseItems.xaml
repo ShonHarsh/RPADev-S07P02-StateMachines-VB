@@ -123,7 +123,11 @@
     <ui:LogMessage DisplayName="Log Message RPADev-S07P02-StateMachines-VB.Dialog_DispenseItems.Begin;" sap:VirtualizedContainerService.HintSize="592,173" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Trace" Message="[&quot;RPADev-S07P02-StateMachines-VB.Dialog_DispenseItems.Begin;&quot;]" />
     <Sequence DisplayName="Sequence Initialization" sap:VirtualizedContainerService.HintSize="592,707" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <Sequence.Variables>
-        <Variable x:TypeArguments="x:Int32" Name="index" />
+        <Variable x:TypeArguments="x:Int32" Name="index">
+          <Variable.Default>
+            <Literal x:TypeArguments="x:Int32" />
+          </Variable.Default>
+        </Variable>
       </Sequence.Variables>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
