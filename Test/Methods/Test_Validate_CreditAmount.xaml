@@ -80,8 +80,16 @@
   </TextExpression.ReferencesForImplementation>
   <Sequence DisplayName="Test_Validate_CreditAmount" sap:VirtualizedContainerService.HintSize="603,1255" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
-      <Variable x:TypeArguments="x:Double" Name="doubleCreditAmount" />
-      <Variable x:TypeArguments="x:Boolean" Name="boolIsValidCredit" />
+      <Variable x:TypeArguments="x:Double" Name="doubleCreditAmount">
+        <Variable.Default>
+          <Literal x:TypeArguments="x:Double" />
+        </Variable.Default>
+      </Variable>
+      <Variable x:TypeArguments="x:Boolean" Name="boolIsValidCredit">
+        <Variable.Default>
+          <Literal x:TypeArguments="x:Boolean" />
+        </Variable.Default>
+      </Variable>
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">

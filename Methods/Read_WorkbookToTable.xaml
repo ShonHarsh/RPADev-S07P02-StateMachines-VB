@@ -124,7 +124,11 @@
     <ui:LogMessage DisplayName="Log Message RPADev-S07P02-StateMachines-VB.Read_WorkbookToTable.Begin;" sap:VirtualizedContainerService.HintSize="512,173" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Trace" Message="[&quot;RPADev-S07P02-StateMachines-VB.Read_WorkbookToTable.Begin;&quot;]" />
     <Sequence sap2010:Annotation.AnnotationText="This workflow takes a file path as a string, a workrsheet name as a string, a worksheet range as a string and a boolean if headers exist for a Microsoft Excel document, reads the document, and retuns the data in a data table.  The entire sheet will be read if the range is blank.&#xA;&#xA;This process uses the Workbook activities." DisplayName="Sequence Initialization" sap:VirtualizedContainerService.HintSize="512,1158" sap2010:WorkflowViewState.IdRef="Sequence_3">
       <Sequence.Variables>
-        <Variable x:TypeArguments="x:Boolean" Name="boolIsValidFilePath" />
+        <Variable x:TypeArguments="x:Boolean" Name="boolIsValidFilePath">
+          <Variable.Default>
+            <Literal x:TypeArguments="x:Boolean" />
+          </Variable.Default>
+        </Variable>
       </Sequence.Variables>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -202,7 +206,7 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ui:ReadRange AddHeaders="False" DataTable="[out_Dt_DataTable]" DisplayName="Read Range Workbook Headers" sap:VirtualizedContainerService.HintSize="354,111" sap2010:WorkflowViewState.IdRef="ReadRange_2" Range="[in_StrWorksheetRange]" SheetName="[in_StrWorksheetName]" WorkbookPath="[in_StrFilePath]" />
+            <ui:ReadRange AddHeaders="False" DataTable="[out_Dt_DataTable]" DisplayName="Read Range Workbook Headers False" sap:VirtualizedContainerService.HintSize="354,111" sap2010:WorkflowViewState.IdRef="ReadRange_2" Range="[in_StrWorksheetRange]" SheetName="[in_StrWorksheetName]" WorkbookPath="[in_StrFilePath]" />
           </Sequence>
         </If.Else>
       </If>

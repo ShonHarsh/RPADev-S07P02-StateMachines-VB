@@ -78,7 +78,11 @@
   </TextExpression.ReferencesForImplementation>
   <Sequence DisplayName="Test_Dialog_OrderItems" sap:VirtualizedContainerService.HintSize="603,1255" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
-      <Variable x:TypeArguments="x:Boolean" Name="boolShouldOrderItems" />
+      <Variable x:TypeArguments="x:Boolean" Name="boolShouldOrderItems">
+        <Variable.Default>
+          <Literal x:TypeArguments="x:Boolean" />
+        </Variable.Default>
+      </Variable>
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
