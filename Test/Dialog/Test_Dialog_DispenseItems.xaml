@@ -113,7 +113,7 @@
                 <OutArgument x:TypeArguments="x:Double">[doubleCreditAmount]</OutArgument>
               </ui:AssignOperation.To>
               <ui:AssignOperation.Value>
-                <InArgument x:TypeArguments="x:Double">10</InArgument>
+                <InArgument x:TypeArguments="x:Double">42</InArgument>
               </ui:AssignOperation.Value>
             </ui:AssignOperation>
             <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_3">
