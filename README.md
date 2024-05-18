@@ -47,7 +47,7 @@ If they want to get the change, a message box is displayed with the value of the
 
 ![Cash Out](https://raw.githubusercontent.com/ShonHarsh/RPADev-S07P02-StateMachines-VB/main/Data/Images/RPADev-S07P02-StateMachines-VB-CashOut.png)
 
-```
+```sh
 05/15/2024 15:31:45 => [Info] RPADev-S07P02-StateMachines-VB execution started
 05/15/2024 15:31:45 => [Info] RPADev-S07P02-StateMachines-VB.Main.Begin;
 05/15/2024 15:31:49 => [Info] RPADev-S07P02-StateMachines-VB.Dialog_CreditAccount.Credit; Account Credit: 100
@@ -55,7 +55,7 @@ If they want to get the change, a message box is displayed with the value of the
 Item: 7up, Cost: 2
 Credit: 98
 05/15/2024 15:32:03 => [Info] RPADev-RPADev-S07P02-StateMachines-VB.Dialog_DispenseItems.TransactionCompleted; Transaction Complete.
-Item: Barq's Root Beer, Cost: 2
+Item: Barqs Root Beer, Cost: 2
 Credit: 96
 05/15/2024 15:32:07 => [Info] RPADev-RPADev-S07P02-StateMachines-VB.Dialog_DispenseItems.TransactionCompleted; Transaction Complete.
 Item: Cheerwine, Cost: 3
@@ -94,7 +94,7 @@ Credit: 65
 Returning funds in pennies: 65
 Ordered Items:
 7up
-Barq's Root Beer
+Barqs Root Beer
 Cheerwine
 Coca-Cola
 Dr. Pepper
@@ -120,11 +120,13 @@ A standard UiPath, Studio to Orchestrator cloud setup is the base of operation. 
 
 Clone the project to develop or change it.
 
-`git clone https://github.com/ShonHarsh/RPADev-S07P02-StateMachines-VB`
+```sh
+git clone https://github.com/ShonHarsh/RPADev-S07P02-StateMachines-VB
+```
 
 ### Links
 - [UiPath Automation Platform](https://www.uipath.com/)
-- [UiPath Studio](https://www.uipath.com/product/studio)
+- [UiPath Studio](https://www.uipath.com/product/studio)- [Atom Editor (Used for all my Readme files)](https://atom-editor.cc/)
 - [Shon Harsh Website 127.0.0.1](https://shonharsh.github.io/curriculum-vitae/index.html)
 - [This.GitHub](https://github.com/shonharsh)
 - [LinkedIn](https://www.linkedin.com/in/shonharsh/)
